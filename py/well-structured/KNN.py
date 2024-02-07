@@ -1,3 +1,5 @@
+# adapted code from : https://raw.githubusercontent.com/AssemblyAI-Examples/Machine-Learning-From-Scratch/main/01%20KNN/train.py
+
 import gzip
 import numpy as np
 from collections import Counter
