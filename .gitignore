@@ -1,0 +1,7 @@
+data/sentimentdataset.csv
+
+py/__pycache__
+py/kzip-env
+py/well-structured/__pycache__
+
+.DS_store
