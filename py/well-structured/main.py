@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from KNN import KNN
 
-data = pd.read_csv("/Users/pilou/Programs/kzip/data/sentimentdataset.csv")
+data = pd.read_csv("/the/path/to/data/sentimentdataset.csv")
 
 if not data.columns.isin(['Text', 'Sentiment']).any().all():
     print("Error: 'Text' and/or 'Sentiment' are not present in your DataFrame")
